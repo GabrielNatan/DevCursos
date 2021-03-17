@@ -3,8 +3,8 @@ import {colorPrimary} from '../../global'
 
 export const Container = styled.div`
     width:100%;
-    max-width:180px;
-    height:280px;
+    max-width:150px;
+    height:250px;
     background: ${colorPrimary};
     padding:5px;
     border-radius:5px;
@@ -12,11 +12,13 @@ export const Container = styled.div`
     flex-direction:column;
     cursor:pointer;
     color:#FFF;
+    margin:15px;
     strong{
         text-align:center;
     }
     .prof{
         text-align:center;
+        font-size: .9rem;
     }
     .img{
         flex:1;

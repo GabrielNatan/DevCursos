@@ -8,7 +8,7 @@ export default function Card(){
                 <strong>HTML5 - Basico</strong>
                 <span className="prof">Rodrigo manguinho</span>
                 <div className="img">
-                    <FaHtml5 size="130px" color="orange"/>
+                    <FaHtml5 size="100px" color="orange"/>
                 </div>
                 <div className="rodape">
                     <span>
