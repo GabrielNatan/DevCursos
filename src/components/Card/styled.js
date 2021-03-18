@@ -12,7 +12,6 @@ export const Container = styled.div`
     flex-direction:column;
     cursor:pointer;
     color:#FFF;
-    margin:15px;
     strong{
         text-align:center;
     }

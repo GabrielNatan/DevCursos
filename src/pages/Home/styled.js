@@ -41,11 +41,6 @@ export const Cont = styled.div`
 
     @media (min-width: 650px) {
         flex:1;
-        flex-direction:row;
-        flex-wrap:wrap;
-        padding: 60px;
-        justify-content:center;
-        align-items:flex-start;
         overflow:auto;
         .title{
             width:100%;
@@ -54,5 +49,10 @@ export const Cont = styled.div`
                 font-size:1.9rem;
             }
         }
+        .cards{
+            width:80%;
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-gap:20px;
       }
 `
